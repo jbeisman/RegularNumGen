@@ -29,9 +29,13 @@ Regular numbers, also known as ugly numbers, Hamming
  
  The functions contained here will calculate the Nth 
  regular number. In order from slowest to fastest:
+ ```
  get_regular_factor(N)
  get_regular_set(N)
  get_regular_log_set(N)
  get_regular_compact(N)
  get_regular_divide_conquer(N)
  get_regular_fast_geometric(N)
+ ```
+ 
+ This code requires a C++17 compiler.
