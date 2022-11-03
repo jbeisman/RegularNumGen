@@ -1,4 +1,4 @@
-# RegularNumGen
+# Regular Number Generator
 
 A few functions for generating the Nth regular number
 
@@ -22,10 +22,9 @@ Regular numbers, also known as ugly numbers, Hamming
 
  Because they are dependent on the distribution of primes,
  regular numbers are randomly distributed throughout
- number space, and cannot be predicted analytically.
- However, geometric reasoning let's us compute
- deep into the series while only calculating a small
- fraction of the series.
+ number space, and cannot be predicted analytically. The 
+ sparseness of their distribution highlights the importance
+ of algorithmic scaling.
  
  The functions contained here will calculate the Nth 
  regular number. In order from slowest to fastest:
@@ -44,7 +43,7 @@ Regular numbers, also known as ugly numbers, Hamming
 git clone https://github.com/jbeisman/RegularNumGen
 ```
 
-Then enter the durectory and invoke the build script
+Then enter the directory and invoke the build script
 ```
 cd RegularNumGen
 sh build.sh
