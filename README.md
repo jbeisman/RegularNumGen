@@ -39,3 +39,18 @@ Regular numbers, also known as ugly numbers, Hamming
  ```
  
  This code requires a C++17 compiler.
+ To build it, clone this repo
+```
+git clone https://github.com/jbeisman/RegularNumGen
+```
+
+Then enter the durectory and invoke the build script
+```
+cd RegularNumGen
+sh build.sh
+```
+
+And run the executable
+```
+./install/bin/RegNumGen
+```
